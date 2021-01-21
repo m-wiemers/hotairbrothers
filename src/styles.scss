@@ -4,21 +4,25 @@ $body-bg: rgb(122, 122, 122);
 $body-color: rgb(0, 0, 0);
 $primary: rgb(0, 37, 245);
 $font-family-base: Arial;
-$secondary: rgb(255, 97, 97);
+$secondary: rgb(255, 44, 44);
 
 // Include all Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
 body {
-  padding: 20px;
   background-image: url(https://www.it-zoom.de/fileadmin/_processed_/7/d/csm_moba-feuer-getty-istock-gettyimagesplus-1600_049dd2bf83.jpg);
   background-attachment: fixed;
 }
 
+main {
+  margin-top: 20px;
+}
+
 .card {
-  margin: 20px auto 0;
+  margin: 25px auto 0;
   max-width: 300px;
+  transform: rotate(-1deg) skew(-1deg, -1deg);
 }
 
 h1 {
