@@ -12,6 +12,13 @@ $secondary: rgb(255, 97, 97);
 // Add you custom CSS
 body {
   padding: 20px;
+  background-image: url(https://www.it-zoom.de/fileadmin/_processed_/7/d/csm_moba-feuer-getty-istock-gettyimagesplus-1600_049dd2bf83.jpg);
+  background-attachment: fixed;
+}
+
+.card {
+  margin: 0 auto 10px;
+  max-width: 300px;
 }
 
 h1 {
